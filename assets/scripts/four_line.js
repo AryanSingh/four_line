@@ -8,8 +8,8 @@
         currentColor = Game.colors[Game.currentPlayer];
         cellToAdd=$('.balls[data-col-num="' + colNum + '"][data-cell-type="none"]').last();
         cellToAdd[0].dataset.cellType = currentColor;
-        cellToAdd.find('.slot').addClass(currentColor).addClassf('bounceInDown');
-        return Game.currentPlayer = (Game.currentPlayer +1)%2;
+        cellToAdd.find('.slot').addClass(currentColor).addClass('bounceInDown');
+        return Game.currentPlayer = (Game.currentPlayer + 1 ) % 2;
       });
     },
     currentPlayer:0,
