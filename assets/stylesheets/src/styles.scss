@@ -1,0 +1,21 @@
+body{
+  background-color: #000000;
+  height:100vh;
+}
+#four_line{
+  width:70vmin;
+  // top:50%;
+  padding-top: 25vmin;
+  .balls{
+    height:8vmin;
+    width:8vmin;
+    background-color: #ffffff;
+    border-radius: 4vmin;
+  }
+  #selector{
+    height:8vmin;
+    width:8vmin;
+    background-color: red;
+    border-radius: 4vmin;
+  }
+}
