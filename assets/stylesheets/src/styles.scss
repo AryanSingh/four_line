@@ -24,6 +24,7 @@ body{
       &.green {
         background: radial-gradient(circle at 7vmin 7vmin, #1abc9c, #0F5F4F);
       }
+      transition:animation .3s ease-in;
     }
   }
 }

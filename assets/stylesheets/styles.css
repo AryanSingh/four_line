@@ -14,7 +14,8 @@ body {
     #four_line .balls .slot {
       width: 8vmin;
       height: 8vmin;
-      border-radius: 50%; }
+      border-radius: 50%;
+      transition: animation .3s ease-in; }
       #four_line .balls .slot.red {
         background: radial-gradient(circle at 7vmin 7vmin, #e74c3c, #862319); }
       #four_line .balls .slot.green {
