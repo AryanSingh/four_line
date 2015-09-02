@@ -11,11 +11,17 @@ body{
     width:8vmin;
     background-color: #ffffff;
     border-radius: 4vmin;
-  }
-  #selector{
-    height:8vmin;
-    width:8vmin;
-    background-color: red;
-    border-radius: 4vmin;
+    .slot {
+      width: 8vmin;
+      height: 8vmin;
+      border-radius: 50%;
+
+      &.red {
+        background: radial-gradient(circle at 7vmin 7vmin, #e74c3c, #862319);
+      }
+
+      &.green {
+        background: radial-gradient(circle at 7vmin 7vmin, #1abc9c, #0F5F4F);
+      }
   }
 }
