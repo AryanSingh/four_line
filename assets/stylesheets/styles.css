@@ -31,7 +31,8 @@ body {
   #four_line .slot {
     height: 10vmin;
     width: 10vmin;
-    border-radius: 50%; }
+    border-radius: 50%;
+    transition: animation .3s ease-in; }
     #four_line .slot.red {
       background: radial-gradient(circle at 7vmin 7vmin, #e74c3c, #862319); }
     #four_line .slot.green {
