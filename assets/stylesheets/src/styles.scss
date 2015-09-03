@@ -1,21 +1,48 @@
 body{
   background-color: #000000;
   height:100vh;
+
+  h1{
+    color: #fff;
+    font-size: 50px;
+    padding-top: 0em;
+    padding-left: 10em;
+    font-family: "Roboto Mono",sans-serif;
+
+
+  }
+  p{
+    margin: 0 5em 40px;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 3%;
+    border: 2px solid #ecf0f1;
+    padding: 10px 18px 5px 20px;
+    width: 222px;
+    height: 71px;
+ }   font-family: 'Roboto', sans-serif;
 }
 #four_line{
-  width:70vmin;
+  margin:0 auto;
+  width:80vmin;
   // top:50%;
-  padding-top: 25vmin;
+  padding-top: 5vmin;
   .balls{
-    height:8vmin;
-    width:8vmin;
+    height:10vmin;
+    width:10vmin;
+    padding:0 0;
     background-color: #ffffff;
-    border-radius: 4vmin;
+    border-radius:50%;
   }
-  #selector{
-    height:8vmin;
-    width:8vmin;
-    background-color: red;
-    border-radius: 4vmin;
+  .slot{
+    height: 10vmin;
+    width: 10vmin;
+    border-radius: 50%;
+    &.red{
+      background:radial-gradient(circle at 7vmin 7vmin,#e74c3c,#862319);
+    }
+    &.green{
+      background:radial-gradient(circle at 7vmin 7vmin,#1abc9c,#0f5f4f);
+    }
   }
 }

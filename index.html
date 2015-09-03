@@ -7,204 +7,205 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/stylesheets/app.min.css">
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <script src="assets/javascript/app.js"></script>
-  <script src="assets/scripts/jquery.hotkeys.js"></script>
   <script src="assets/scripts/four_line.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
 </head>
 <body>
+<h1>Four in a line</h1>
   <div id="four_line" class="container-fluid">
     <div class="row">
-      <div class="col-sm-1 balls" data-col-num="1" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="1" data-row-num="1" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="2" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="2" data-row-num="1" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="3" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="3" data-row-num="1" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="4" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="4" data-row-num="1" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="5" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="5" data-row-num="1" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="6" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="6" data-row-num="1" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="7" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="7" data-row-num="1" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="8" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="8" data-row-num="1" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
       <div class="col-sm-4 score score1"></div>
     </div>
     <div class="row">
-      <div class="col-sm-1 balls " data-col-num="1" data-cell-type="none">
+      <div class="col-sm-1 balls " data-col-num="1" data-row-num="2" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls " data-col-num="2" data-cell-type="none">
+      <div class="col-sm-1 balls " data-col-num="2" data-row-num="2" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls " data-col-num="3" data-cell-type="none">
+      <div class="col-sm-1 balls " data-col-num="3" data-row-num="2" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls " data-col-num="4" data-cell-type="none">
+      <div class="col-sm-1 balls " data-col-num="4" data-row-num="2" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls " data-col-num="5" data-cell-type="none">
+      <div class="col-sm-1 balls " data-col-num="5" data-row-num="2" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls " data-col-num="6" data-cell-type="none">
+      <div class="col-sm-1 balls " data-col-num="6" data-row-num="2" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls " data-col-num="7" data-cell-type="none">
+      <div class="col-sm-1 balls " data-col-num="7" data-row-num="2" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls " data-col-num="8" data-cell-type="none">
-        <div class="slot animated"></div>
-      </div>
-      <!-- <div class="col-sm-4 score"></div> -->
-    </div>
-    <div class="row">
-      <div class="col-sm-1 balls " data-col-num="1" data-cell-type="none">
-        <div class="slot animated"></div>
-      </div>
-      <div class="col-sm-1 balls " data-col-num="2" data-cell-type="none">
-        <div class="slot animated"></div>
-      </div>
-      <div class="col-sm-1 balls " data-col-num="3" data-cell-type="none">
-        <div class="slot animated"></div>
-      </div>
-      <div class="col-sm-1 balls " data-col-num="4" data-cell-type="none">
-        <div class="slot animated"></div>
-      </div>
-      <div class="col-sm-1 balls " data-col-num="5" data-cell-type="none">
-        <div class="slot animated"></div>
-      </div>
-      <div class="col-sm-1 balls " data-col-num="6" data-cell-type="none">
-        <div class="slot animated"></div>
-      </div>
-      <div class="col-sm-1 balls " data-col-num="7" data-cell-type="none">
-        <div class="slot animated"></div>
-      </div>
-      <div class="col-sm-1 balls " data-col-num="8" data-cell-type="none">
+      <div class="col-sm-1 balls " data-col-num="8" data-row-num="2" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
       <!-- <div class="col-sm-4 score"></div> -->
     </div>
     <div class="row">
-      <div class="col-sm-1 balls " data-col-num="1" data-cell-type="none">
+      <div class="col-sm-1 balls " data-col-num="1" data-row-num="3" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls " data-col-num="2" data-cell-type="none">
+      <div class="col-sm-1 balls " data-col-num="2" data-row-num="3" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls " data-col-num="3" data-cell-type="none">
+      <div class="col-sm-1 balls " data-col-num="3" data-row-num="3" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls " data-col-num="4" data-cell-type="none">
+      <div class="col-sm-1 balls " data-col-num="4" data-row-num="3" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls " data-col-num="5" data-cell-type="none">
+      <div class="col-sm-1 balls " data-col-num="5" data-row-num="3" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls " data-col-num="6" data-cell-type="none">
+      <div class="col-sm-1 balls " data-col-num="6" data-row-num="3" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls " data-col-num="7" data-cell-type="none">
+      <div class="col-sm-1 balls " data-col-num="7" data-row-num="3" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls " data-col-num="8" data-cell-type="none">
+      <div class="col-sm-1 balls " data-col-num="8" data-row-num="3" data-cell-type="none">
+        <div class="slot animated"></div>
+      </div>
+      <!-- <div class="col-sm-4 score"></div> -->
+    </div>
+    <div class="row">
+      <div class="col-sm-1 balls " data-col-num="1" data-row-num="4" data-cell-type="none">
+        <div class="slot animated"></div>
+      </div>
+      <div class="col-sm-1 balls " data-col-num="2" data-row-num="4" data-cell-type="none">
+        <div class="slot animated"></div>
+      </div>
+      <div class="col-sm-1 balls " data-col-num="3" data-row-num="4" data-cell-type="none">
+        <div class="slot animated"></div>
+      </div>
+      <div class="col-sm-1 balls " data-col-num="4" data-row-num="4" data-cell-type="none">
+        <div class="slot animated"></div>
+      </div>
+      <div class="col-sm-1 balls " data-col-num="5" data-row-num="4" data-cell-type="none">
+        <div class="slot animated"></div>
+      </div>
+      <div class="col-sm-1 balls " data-col-num="6" data-row-num="4" data-cell-type="none">
+        <div class="slot animated"></div>
+      </div>
+      <div class="col-sm-1 balls " data-col-num="7" data-row-num="4" data-cell-type="none">
+        <div class="slot animated"></div>
+      </div>
+      <div class="col-sm-1 balls " data-col-num="8" data-row-num="4" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
       <div class="col-sm-4 score score2"></div>
     </div>
     <div class="row">
-      <div class="col-sm-1 balls" data-col-num="1" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="1" data-row-num="5" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="2" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="2" data-row-num="5" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="3" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="3" data-row-num="5" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="4" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="4" data-row-num="5" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="5" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="5" data-row-num="5" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="6" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="6" data-row-num="5" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="7" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="7" data-row-num="5" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="8" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="8" data-row-num="5" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
       <!-- <div class="col-sm-4 score"></div> -->
     </div>
     <div class="row">
-      <div class="col-sm-1 balls" data-col-num="1" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="1" data-row-num="6" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="2" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="2" data-row-num="6" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="3" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="3" data-row-num="6" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="4" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="4" data-row-num="6" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="5" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="5" data-row-num="6" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="6" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="6" data-row-num="6" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="7" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="7" data-row-num="6" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="8" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="8" data-row-num="6" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
       <div class="col-sm-4 score score"></div>
     </div>
     <div class="row">
-      <div class="col-sm-1 balls" data-col-num="1" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="1" data-row-num="7" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="2" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="2" data-row-num="7" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="3" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="3" data-row-num="7" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="4" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="4" data-row-num="7" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="5" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="5" data-row-num="7" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="6" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="6" data-row-num="7" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="7" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="7" data-row-num="7" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
-      <div class="col-sm-1 balls" data-col-num="8" data-cell-type="none">
+      <div class="col-sm-1 balls" data-col-num="8" data-row-num="7" data-cell-type="none">
         <div class="slot animated"></div>
       </div>
       <!-- <div class="col-sm-4 score"></div> -->
     </div>
   </div>
+ 
 </body>
 </html>

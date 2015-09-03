@@ -22,7 +22,8 @@ module.exports = function(grunt){
         files: {
           'assets/stylesheets/app.min.css': 
           [
-           'assets/stylesheets/styles.css'
+           'assets/stylesheets/styles.css',
+           'assets/stylesheets/animate.css'
           ]
         }
       }
